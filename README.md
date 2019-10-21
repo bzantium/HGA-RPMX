@@ -92,6 +92,7 @@ named arguments:
   <strong>Figure 4. Experimental results on synthetic datasets</strong>
 </p>
 
+<br></br>
 
 ## _4. Requirement_
 
