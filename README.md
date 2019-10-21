@@ -10,7 +10,9 @@ This is java implementation of promising paper "Finding profitable product assig
   <strong>Figure. Flowchart of proposed HGA</strong>
 </p>
 
-We also proposed a new crossover method, Rectangular Partially Matched Crossover, which is modified version of PMX.
+<br></br>
+
+We also proposed a new crossover method, Rectangular Partially Matched Crossover, which is modified version of PMX. This crossover method shows better performance on the given retail situations with the proposed procedure.
 
 <p align="center">
   <img src="./image/rpmx.png"/ width="380" height="360">
