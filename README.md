@@ -3,7 +3,17 @@
 This is java implementation of promising paper "Finding profitable product assignment plans with weighted product associations in retail using hybrid genetic algorithm". In this paper, we propose rectangular partially mapped crossover (RPMX) which adapt original PMX to rectangular format to efficiently solve product assignment problem.
 
 <p align="center">
-  <img src="./image/rpmx.png"/>
+  <img src="./image/flowchart.png"/ width="800" height="640">
+</p>
+
+<p align="center">
+  <strong>Figure. Flowchart of proposed HGA</strong>
+</p>
+
+We also proposed a new crossover method, Rectangular Partially Matched Crossover, which is modified version of PMX.
+
+<p align="center">
+  <img src="./image/rpmx.png"/ width="380" height="360">
 </p>
 
 <p align="center">
