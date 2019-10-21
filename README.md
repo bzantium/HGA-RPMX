@@ -22,7 +22,9 @@ We also proposed a new crossover method, Rectangular Partially Matched Crossover
   <strong>Figure 2. Rectangular PMX</strong>
 </p>
 
-## _run code for QAPLIB examples_
+<br></br>
+
+## _1. run code for QAPLIB examples_
 You can run HGA-RPMX to solve an example _tai40a_ from QAPLIB following code:
 ```
 $ cd ~/src
@@ -47,7 +49,9 @@ named arguments:
 -----------------------------------------------------------------------------------------------------------------
 ```
 
-## _run code for synthetic datasets_
+<br></br>
+
+## _2. run code for synthetic datasets_
 ```
 $ javac -cp "../jars/argparse4j.jar"; -d "../bin" test.java
 $ java -cp "../jars/argparse4j.jar";"../bin" test -nrow 5 -ncol 5
@@ -68,7 +72,9 @@ named arguments:
 -----------------------------------------------------------------------------------------------------------------
 ```
 
-## _experimental results_
+<br></br>
+
+## _3. experimental results_
 
 <p align="center">
   <img src="./image/QAPLIB_results.png"/ width="800" height="470">
@@ -87,6 +93,6 @@ named arguments:
 </p>
 
 
-## Requirement
+## _4. Requirement_
 
 - JDK 8
