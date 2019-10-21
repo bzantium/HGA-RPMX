@@ -7,7 +7,7 @@ This is java implementation of promising paper "Finding profitable product assig
 </p>
 
 <p align="center">
-  <strong>Figure. Flowchart of proposed HGA</strong>
+  <strong>Figure 1. Flowchart of proposed HGA</strong>
 </p>
 
 <br></br>
@@ -19,7 +19,7 @@ We also proposed a new crossover method, Rectangular Partially Matched Crossover
 </p>
 
 <p align="center">
-  <strong>Figure. Rectangular PMX</strong>
+  <strong>Figure 2. Rectangular PMX</strong>
 </p>
 
 ## run main
