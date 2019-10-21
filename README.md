@@ -22,7 +22,8 @@ We also proposed a new crossover method, Rectangular Partially Matched Crossover
   <strong>Figure 2. Rectangular PMX</strong>
 </p>
 
-## run main
+## _run code for QAPLIB examples_
+You can run HGA-RPMX to solve an example _tai40a_ from QAPLIB following code:
 ```
 $ cd ~/src
 $ mkdir "../bin"
@@ -30,7 +31,7 @@ $ javac -cp "../jars/argparse4j.jar"; -d "../bin" main.java
 $ java -cp "../jars/argparse4j.jar";"../bin" main -f "../qapdata/tai40a.dat"
 ```
 
-### arguments
+### _arguments_
 ```
 -----------------------------------------------------------------------------------------------------------------
 usage: main [-h] [-f FILE] [-npop NPOP] [-r {true,false}]
@@ -46,13 +47,13 @@ named arguments:
 -----------------------------------------------------------------------------------------------------------------
 ```
 
-## run test
+## _run code for synthetic datasets_
 ```
 $ javac -cp "../jars/argparse4j.jar"; -d "../bin" test.java
 $ java -cp "../jars/argparse4j.jar";"../bin" test -nrow 5 -ncol 5
 ```
 
-### arguments
+### _arguments_
 ```
 -----------------------------------------------------------------------------------------------------------------
 usage: main [-h] [-npop NPOP] [-nrow NROW] [-ncol NCOL]
@@ -66,6 +67,25 @@ named arguments:
   -ncol NCOL             Specify number of cols (default: 5)
 -----------------------------------------------------------------------------------------------------------------
 ```
+
+## _experimental results_
+
+<p align="center">
+  <img src="./image/QAPLIB_results.png"/ width="800" height="470">
+</p>
+
+<p align="center">
+  <strong>Figure 3. Experimental results on QAPLIB</strong>
+</p>
+
+<p align="center">
+  <img src="./image/synthetic_results.png"/ width="800" height="130">
+</p>
+
+<p align="center">
+  <strong>Figure 4. Experimental results on synthetic datasets</strong>
+</p>
+
 
 ## Requirement
 
